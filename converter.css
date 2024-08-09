@@ -1,0 +1,39 @@
+body{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content:space-between ;
+}
+.container{
+  width: 600px;
+}
+h1{
+  text-align: center;
+  font-size: 16px;
+}
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.col{
+  width: 48%;
+}
+select,input{
+margin: 50px;
+  width: 70%;
+font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 15px;
+  padding: 8px 15px;
+}
+button{
+  position: relative;
+  right: 50%;
+  margin-top: 30px;
+  width: 50%;
+  height: 50px;
+  cursor: pointer;
+  padding: auto;
+}
